@@ -10,12 +10,21 @@ import Testimonials from "@/components/Testimonials";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <div id="home">
+        <Navbar />
+        <Hero />
+      </div>
       <Logos />
-      <Works />
-      <Testimonials />
-      <BlogSection />
+      <div id="work">
+        <Works />
+      </div>
+      <div id="client">
+        <Testimonials />
+      </div>
+
+      <div id="writing">
+        <BlogSection />
+      </div>
       <Footer />
     </>
   );

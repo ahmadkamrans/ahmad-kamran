@@ -41,26 +41,31 @@ export default function Navbar() {
               <div className="main-nav__box">
                 <ul className="nav__list list-reset">
                   <li className="nav__item">
-                    <Link href="/index.html" className="nav__link active-link">
+                    <a href="#home" className="nav__link active-link">
                       Home
-                    </Link>
+                    </a>
                   </li>
-                  <li className="nav__item">
+                  {/* <li className="nav__item">
                     <Link href="/about/index.html" className="nav__link">
                       About
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="nav__item">
-                    <Link href="/work/index.html" className="nav__link">
+                    <a href="#work" className="nav__link">
                       Work
-                    </Link>
+                    </a>
                   </li>
                   <li className="nav__item">
-                    <Link href="/blog/index.html" className="nav__link">
-                      Writing
-                    </Link>
+                    <a href="#client" className="nav__link">
+                      Client
+                    </a>
                   </li>
-                  <li className="nav__item dropdown">
+                  <li className="nav__item">
+                    <a href="#writing" className="nav__link">
+                      Writing
+                    </a>
+                  </li>
+                  {/* <li className="nav__item dropdown">
                     <span className="nav__link dropdown-toggle">
                       Pages{" "}
                       <i className="ion ion-ios-arrow-down arrow-down"></i>
@@ -73,7 +78,7 @@ export default function Navbar() {
                         Elements
                       </Link>
                     </div>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </nav>

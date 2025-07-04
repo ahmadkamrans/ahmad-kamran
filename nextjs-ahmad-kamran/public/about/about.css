@@ -3099,7 +3099,7 @@ table td {
 
 .logos__image {
     height: 36px;
-    filter: invert(51%) sepia(4%) saturate(1703%) hue-rotate(179deg) brightness(85%) contrast(89%)
+    /* filter: invert(51%) sepia(4%) saturate(1703%) hue-rotate(179deg) brightness(85%) contrast(89%) */
 }
 
 @media(max-width: 576px) {
