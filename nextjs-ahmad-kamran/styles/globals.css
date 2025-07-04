@@ -40,3 +40,41 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Work slider 1:1 aspect ratio and image fill */
+.work-slider-container {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  height: auto;
+  background: #f7f7f7;
+  border-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.slick-slider,
+.slick-list,
+.slick-track,
+.slick-slide,
+.slick-slide>div,
+.work-slider-slide {
+  height: 100% !important;
+}
+
+.slick-slide>div,
+.work-slider-slide {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.work-slider-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  display: block;
+}

@@ -1,6 +1,32 @@
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
+  // Theme state: 'light' or 'dark'
+  const [theme, setTheme] = useState<"light" | "dark">(
+    typeof window !== "undefined" && localStorage.getItem("theme") === "dark"
+      ? "dark"
+      : "light"
+  );
+
+  // Sync theme with localStorage and document
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.setAttribute("dark", "");
+      document.documentElement.classList.add("dark-mode");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.removeAttribute("dark");
+      document.documentElement.classList.remove("dark-mode");
+      localStorage.setItem("theme", "light");
+    }
+  }, [theme]);
+
+  // Toggle theme handler
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+  };
+
   return (
     <header className="header">
       <div className="container-big">
@@ -51,19 +77,35 @@ export default function Navbar() {
                 </ul>
               </div>
             </nav>
-            <div className="nav-button">
+            {/* <div className="nav-button">
               <div className="hamburger">
                 <div></div>
               </div>
               <div className="toggle-theme toggle-theme-js">
-                <div className="toggle-moon" title="Enable dark mode">
+                <div
+                  className="toggle-moon"
+                  title="Enable dark mode"
+                  style={{
+                    display: theme === "light" ? "block" : "none",
+                    cursor: "pointer",
+                  }}
+                  onClick={toggleTheme}
+                >
                   <i className="ion ion-ios-moon"></i>
                 </div>
-                <div className="toggle-sun" title="Enable light mode">
+                <div
+                  className="toggle-sun"
+                  title="Enable light mode"
+                  style={{
+                    display: theme === "dark" ? "block" : "none",
+                    cursor: "pointer",
+                  }}
+                  onClick={toggleTheme}
+                >
                   <i className="ion ion-ios-sunny"></i>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

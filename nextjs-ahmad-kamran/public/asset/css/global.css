@@ -55,6 +55,13 @@
     padding: 0
 }
 
+.slick-prev:before,
+.slick-next:before {
+    color: #000 !important;
+}
+
+
+
 .clearfix::after,
 .clearfix ::before {
     content: "";
