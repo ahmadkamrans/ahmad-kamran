@@ -204,6 +204,7 @@ export default function Testimonials() {
                               cursor: "pointer",
                               padding: 0,
                               zIndex: 9999,
+                              position: "relative",
                             }}
                           >
                             {isExpanded ? "Show less" : "Show more"}
