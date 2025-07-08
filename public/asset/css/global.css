@@ -3190,7 +3190,8 @@ table td {
 .work__info .work__title {
     display: inline-block;
     margin-bottom: 0;
-    font-size: 32px;
+    font-size: 22px;
+    font-weight: 500;
     line-height: 1
 }
 
