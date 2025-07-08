@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const videos = [
   {
@@ -29,6 +30,32 @@ export default function Hero() {
     slidesToScroll: 1,
     arrows: true,
     adaptiveHeight: false,
+    nextArrow: (
+      <MdArrowForward
+        size={32}
+        style={{
+          color: "#000",
+          right: 10,
+          zIndex: 4,
+          position: "absolute",
+          top: "50%",
+          transform: "translateY(-50%)",
+        }}
+      />
+    ),
+    prevArrow: (
+      <MdArrowBack
+        size={32}
+        style={{
+          color: "#000",
+          left: 10,
+          zIndex: 4,
+          position: "absolute",
+          top: "50%",
+          transform: "translateY(-50%)",
+        }}
+      />
+    ),
   };
 
   return (
@@ -78,8 +105,10 @@ export default function Hero() {
                       style={{
                         position: "relative",
                         width: "100%",
-                        paddingTop: "56.25%", // 16:9 aspect ratio
+                        paddingTop: "56.25%",
                         background: "#000",
+                        overflow: "hidden",
+                        borderRadius: "20px",
                       }}
                     >
                       <iframe

@@ -13,7 +13,7 @@ export default function Logos() {
               <li className="logos__item">
                 <a href="#" className="logos__link" rel="noopener">
                   <img
-                    src="https://media.licdn.com/dms/image/v2/D560BAQFecMb-qUespw/company-logo_200_200/company-logo_200_200/0/1701835091200/word_of_mouth_online_pty_ltd__logo?e=1756944000&v=beta&t=UzN6I0siMbr2Yai3d6cqT847NnQ9ysICta1S7OD-bpg"
+                    src="/images/word_of_mouth_online_pty_ltd__logo.jpeg"
                     alt="Google"
                     className=""
                   />
@@ -22,7 +22,7 @@ export default function Logos() {
               <li className="logos__item">
                 <a href="#" className="logos__link" rel="noopener">
                   <img
-                    src="https://media.licdn.com/dms/image/v2/D4D0BAQFFAqCrmHrqBg/company-logo_200_200/B4DZTyEH7NHIAI-/0/1739227955189/vestra_software_solutions_logo?e=1756944000&v=beta&t=pvG8KVJgw9sn6snMC-409S5tndESHWh4A53Mi85A5cw"
+                    src="/images/vestra_software_solutions_logo.jpeg"
                     alt="Spotify"
                     className=""
                   />
@@ -31,7 +31,7 @@ export default function Logos() {
               <li className="logos__item">
                 <a href="#" className="logos__link" rel="noopener">
                   <img
-                    src="https://media.licdn.com/dms/image/v2/C560BAQE6pyYX1eOhLw/company-logo_200_200/company-logo_200_200/0/1641458050162/zoficash_logo?e=1756944000&v=beta&t=f7ShBKfzHFFDHIErwDF64sV1c3PjciwrKKLh6kNqONo"
+                    src="/images/zoficash_logo.jpeg"
                     alt="Pinterest"
                     className=""
                   />
@@ -43,11 +43,7 @@ export default function Logos() {
                   className="logos__link"
                   rel="noopener"
                 >
-                  <img
-                    src="/images/netlify.svg"
-                    alt="Netlify"
-                    className="logos__image"
-                  />
+                  <img src="/images/golfpay.png" alt="Netlify" className="" />
                 </a>
               </li>
               {/* <li className="logos__item">
