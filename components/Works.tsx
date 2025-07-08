@@ -3,58 +3,79 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const works = [
+  // Blog: Vestra.app Case Study
   {
     images: [
-      "https://media.licdn.com/dms/image/v2/D4D1FAQFOuKiMRdnxQA/feedshare-document-images_800/B4DZfMbSF1GUAg-/1/1751481421756?e=1752710400&v=beta&t=LVNbyMwSaO6ADxTAy0GKbw2YctDNX62ToK6XZ1OYBew",
-      "https://media.licdn.com/dms/image/v2/D4D1FAQFOuKiMRdnxQA/feedshare-document-images_800/B4DZfMbSF1GUAg-/7/1751481421756?e=1752710400&v=beta&t=o58cI2ULy7M7wKb8b3GTT26GBewnvfTbHRAYtUVcd-g",
-      "/images/work-1-3.jpg",
+      "/images/repi-work.jpeg",
+      "/images/i-built-3.jpeg",
+      "/images/sales-agent.jpeg",
     ],
-    link: "/work/music-love-fest.html",
-    alt: "Music love fest",
-    category: "Print Design",
-    title: "Music love fest",
+    link: "/blog/vestra-app-case-study",
+    alt: "Vestra.app – Automating Property Management with AI-Powered Simplicity",
+    category: "Case Study",
+    title:
+      "Case Study: Vestra.app – Automating Property Management with AI-Powered Simplicity",
     description:
-      "An alternative to paperback is the glossy cover, otherwise known as a dust cover, found on magazines, and comic books.",
+      "Vestra.app is a modern SaaS platform built for property managers, automating 80% of daily tasks with AI-powered financial insights, flexible rent collection, real-time chat, and secure document storage. Developed by Ahmad Kamran for founder Nathan, Vestra streamlines onboarding, operations, and reporting—delivering a seamless experience for landlords, staff, and tenants.",
   },
+  // Blog: WhatsApp & Voice AI Agent Demo
   {
-    images: [
-      "https://media.licdn.com/dms/image/v2/D4D1FAQFOuKiMRdnxQA/feedshare-document-images_800/B4DZfMbSF1GUAg-/2/1751481421756?e=1752710400&v=beta&t=5_t7WEXFIm9xZrRVNrbrD3xhm0gg8dPj3R7AyPKE7lE",
-      "https://media.licdn.com/dms/image/v2/D4D1FAQFOuKiMRdnxQA/feedshare-document-images_800/B4DZfMbSF1GUAg-/3/1751481421756?e=1752710400&v=beta&t=kVg6vzMfS13Smhw4lfYrN_PzN14KKTyqu4GZLHrlG9E",
-      "/images/work-2-2.jpg",
-      "/images/work-2-3.jpg",
-    ],
-    link: "/work/jazz-concert.html",
-    alt: "Jazz concert",
-    category: "Book Cover",
-    title: "Jazz concert",
+    images: ["/images/whatsapp-agent.jpeg"],
+    link: "/blog/whatsapp-voice-ai-agent-demo",
+    alt: "WhatsApp & Voice AI Agent Demo",
+    category: "AI Demo",
+    title:
+      "WhatsApp & Voice AI Agent Demo: Healthcare Triage & Appointment Booking",
     description:
-      "An alternative to paperback is the glossy cover, otherwise known as a dust cover, found on magazines, and comic books.",
+      "This demo showcases the capabilities of WhatsApp and Voice AI agents for healthcare triage and appointment booking. Users can upload documents to train the AI agent with custom knowledge, interact via voice to describe symptoms, and receive urgent care recommendations. The system can book appointments, request additional details, and escalate to a human agent when needed. All interactions are logged in a web dashboard, supporting both automated and human-assisted responses for seamless healthcare support.",
   },
+  // Blog: Modular AI Agents Case Study
   {
-    images: [
-      "https://media.licdn.com/dms/image/v2/D4D1FAQFOuKiMRdnxQA/feedshare-document-images_800/B4DZfMbSF1GUAg-/3/1751481421756?e=1752710400&v=beta&t=kVg6vzMfS13Smhw4lfYrN_PzN14KKTyqu4GZLHrlG9E",
-      "https://media.licdn.com/dms/image/v2/D4D1FAQFOuKiMRdnxQA/feedshare-document-images_800/B4DZfMbSF1GUAg-/5/1751481421756?e=1752710400&v=beta&t=FpAKNgNiFwE359JoenkDOl8kpBay7DWWWpKGFhJuHyE",
-      "/images/work-2-2.jpg",
-    ],
-    link: "/work/geametric-band.html",
-    alt: "Geametric band",
-    category: "Music flyer",
-    title: "Geametric band",
+    images: ["/images/3agent.jpeg", "/images/built-for-stack.jpeg"],
+    link: "/blog/modular-ai-agents-case-study",
+    alt: "Modular AI Agents Case Study",
+    category: "Case Study",
+    title:
+      "Case Study: Modular AI Agents That Save Time, Scale Outreach, and Automate Support",
     description:
-      "An alternative to paperback is the glossy cover, otherwise known as a dust cover, found on magazines, and comic books.",
+      "Discover how modular, production-ready AI agents are transforming real-world SaaS teams by automating support, scaling outreach, and saving hours every week. Built by Ahmad Kamran, this customizable suite includes WhatsApp, Voice, and Sales Outreach agents—each designed for seamless integration, human handoff, and real business impact.",
   },
-  {
-    images: [
-      "https://media.licdn.com/dms/image/v2/D4D1FAQFOuKiMRdnxQA/feedshare-document-images_800/B4DZfMbSF1GUAg-/4/1751481421756?e=1752710400&v=beta&t=RZDThwtciR64iJaSV86i2uudl37q9KPYb_u4UW1GmAo",
-      "https://media.licdn.com/dms/image/v2/D4D1FAQFOuKiMRdnxQA/feedshare-document-images_800/B4DZfMbSF1GUAg-/6/1751481421756?e=1752710400&v=beta&t=5c-C1PIPySuZe2_a2l4kaegdjZ9K99hSZBDa4UWEBuw",
-    ],
-    link: "/work/music-festival.html",
-    alt: "Music festival",
-    category: "Music flyer",
-    title: "Music festival",
-    description:
-      "An alternative to paperback is the glossy cover, otherwise known as a dust cover, found on magazines, and comic books.",
-  },
+  // {
+  //   images: ["/images/3agent.jpeg", "/images/built-for-stack.jpeg"],
+  //   link: "/work/music-love-fest.html",
+  //   alt: "Music love fest",
+  //   category: "Print Design",
+  //   title: "Music love fest",
+  //   description:
+  //     "An alternative to paperback is the glossy cover, otherwise known as a dust cover, found on magazines, and comic books.",
+  // },
+  // {
+  //   images: ["/images/repi-work.jpeg", "/images/i-built-3.jpeg"],
+  //   link: "/work/jazz-concert.html",
+  //   alt: "Jazz concert",
+  //   category: "Book Cover",
+  //   title: "Jazz concert",
+  //   description:
+  //     "An alternative to paperback is the glossy cover, otherwise known as a dust cover, found on magazines, and comic books.",
+  // },
+  // {
+  //   images: ["/images/i-built-3.jpeg", "/images/voice-agent.jpeg"],
+  //   link: "/work/geametric-band.html",
+  //   alt: "Geametric band",
+  //   category: "Music flyer",
+  //   title: "Geametric band",
+  //   description:
+  //     "An alternative to paperback is the glossy cover, otherwise known as a dust cover, found on magazines, and comic books.",
+  // },
+  // {
+  //   images: ["/images/whatsapp-agent.jpeg", "/images/sales-agent.jpeg"],
+  //   link: "/work/music-festival.html",
+  //   alt: "Music festival",
+  //   category: "Music flyer",
+  //   title: "Music festival",
+  //   description:
+  //     "An alternative to paperback is the glossy cover, otherwise known as a dust cover, found on magazines, and comic books.",
+  // },
 ];
 
 const sliderSettings = {

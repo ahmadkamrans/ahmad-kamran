@@ -48,10 +48,10 @@ export default function WhatsAppVoiceAIAgentDemo() {
               <div className="post-meta">
                 <div className="post-meta__left">
                   <a href="/about/index.html" className="post-author-image">
-                    <img src="/images/01.jpg" alt="Ahmad Kamran" />
+                    <img src="/images/ahmad-kamran.jpeg" alt="Ahmad Kamran" />
                   </a>
                   <div className="post-meta__bottom">
-                    <a className="post-author-name" href="/about/index.html">
+                    <a className="post-author-name" href="#">
                       Ahmad Kamran
                     </a>
                     <span className="post-date">
@@ -109,7 +109,7 @@ export default function WhatsAppVoiceAIAgentDemo() {
             </div>
             <div className="post-image">
               <img
-                src="/images/post-1.jpg"
+                src="/images/whatsapp-agent.jpeg"
                 alt="WhatsApp & Voice AI Agent Demo"
               />
             </div>

@@ -17,7 +17,7 @@ export default function BlogSection() {
                   href="/blog/vestra-app-case-study"
                 >
                   <img
-                    src="/images/post-2.jpg"
+                    src="/images/vestra_software_solutions_logo.jpeg"
                     alt="Vestra.app – Automating Property Management with AI-Powered Simplicity"
                   />
                 </a>
@@ -64,7 +64,7 @@ export default function BlogSection() {
                   href="/blog/whatsapp-voice-ai-agent-demo"
                 >
                   <img
-                    src="/images/post-1.jpg"
+                    src="/images/whatsapp-agent.jpeg"
                     alt="WhatsApp & Voice AI Agent Demo"
                   />
                 </a>
@@ -112,7 +112,7 @@ export default function BlogSection() {
                   href="/blog/modular-ai-agents-case-study"
                 >
                   <img
-                    src="/images/ai-agents.jpg"
+                    src="/images/repi-work.jpeg"
                     alt="Modular AI Agents Case Study"
                   />
                 </a>
