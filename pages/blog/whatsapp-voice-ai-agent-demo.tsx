@@ -47,7 +47,7 @@ export default function WhatsAppVoiceAIAgentDemo() {
               </div>
               <div className="post-meta">
                 <div className="post-meta__left">
-                  <a href="/about/index.html" className="post-author-image">
+                  <a href="#" className="post-author-image">
                     <img src="/images/ahmad-kamran.jpeg" alt="Ahmad Kamran" />
                   </a>
                   <div className="post-meta__bottom">
@@ -59,7 +59,7 @@ export default function WhatsAppVoiceAIAgentDemo() {
                     </span>
                   </div>
                 </div>
-                <div className="post-meta__right">
+                {/* <div className="post-meta__right">
                   <div className="post-share">
                     <ul className="share__list list-reset">
                       <li className="share__item">
@@ -104,7 +104,7 @@ export default function WhatsAppVoiceAIAgentDemo() {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="post-image">
@@ -130,13 +130,16 @@ export default function WhatsAppVoiceAIAgentDemo() {
               and logs all interactions in a web dashboard.
             </p>
             <h3>Demo Video</h3>
-            <iframe
-              width="500"
-              height="300"
-              src="https://www.youtube.com/embed/IK8swdj1g6s"
-              title="Real-Time AI WhatsApp & Voice Agent (Agentic) Demo | Built with RAG, OpenAI, Twilio, LangChain"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            ></iframe>
+            <div className="yt-vedios">
+              <iframe
+                width="500"
+                height="300"
+                style={{ overflow: "hidden", borderRadius: "12px" }}
+                src="https://www.youtube.com/embed/IK8swdj1g6s"
+                title="Real-Time AI WhatsApp & Voice Agent (Agentic) Demo | Built with RAG, OpenAI, Twilio, LangChain"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              ></iframe>
+            </div>
             <h3>Key Features</h3>
             <ul>
               <li>Document upload for custom AI training (RAG)</li>

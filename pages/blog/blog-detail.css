@@ -4118,6 +4118,12 @@ table td {
     border-bottom-color: var(--primary-color)
 }
 
+.yt-vedios {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .post,
 .page {
     /* max-width: 840px; */
