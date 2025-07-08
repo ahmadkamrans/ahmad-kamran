@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="row">
           <div className="header__inner col col-12">
             <div className="logo">
-              <Link className="logo__link" href="/index.html">
+              <Link className="logo__link" href="/">
                 Ahmad
               </Link>
             </div>
