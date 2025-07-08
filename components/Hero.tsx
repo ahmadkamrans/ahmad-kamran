@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { MdArrowBack, MdArrowForward } from "react-icons/md";
+import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const videos = [
   {
@@ -30,8 +30,10 @@ export default function Hero() {
     slidesToScroll: 1,
     arrows: true,
     adaptiveHeight: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
     nextArrow: (
-      <MdArrowForward
+      <MdChevronRight
         size={32}
         style={{
           color: "#000",
@@ -44,7 +46,7 @@ export default function Hero() {
       />
     ),
     prevArrow: (
-      <MdArrowBack
+      <MdChevronLeft
         size={32}
         style={{
           color: "#000",

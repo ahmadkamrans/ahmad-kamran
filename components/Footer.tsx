@@ -12,7 +12,7 @@ export default function Footer() {
                     <li className="social__item">
                       <a
                         className="social__link"
-                        href="https://github.com/"
+                        href="https://github.com/ahmadkamrans"
                         target="_blank"
                         rel="noopener"
                         aria-label="GitHub"
@@ -64,7 +64,7 @@ export default function Footer() {
                     <li className="social__item">
                       <a
                         className="social__link"
-                        href="https://www.linkedin.com/"
+                        href="https://www.linkedin.com/in/ahmad-kamran-467571136/"
                         target="_blank"
                         rel="noopener"
                         aria-label="LinkedIn"
@@ -81,6 +81,30 @@ export default function Footer() {
                           <path
                             d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm15.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v4.72z"
                             fill="#0077b5"
+                          />
+                        </svg>
+                      </a>
+                    </li>
+                    <li className="social__item">
+                      <a
+                        className="social__link"
+                        href="https://www.youtube.com/@ahmadkamran518/videos"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="YouTube"
+                      >
+                        <svg
+                          width="28"
+                          height="28"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          aria-hidden="true"
+                          focusable="false"
+                        >
+                          <path
+                            d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.228 3.5 12 3.5 12 3.5s-7.228 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.36 0 12 0 12s0 3.64.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.772 20.5 12 20.5 12 20.5s7.228 0 9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.64 24 12 24 12s0-3.64-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                            fill="#FF0000"
                           />
                         </svg>
                       </a>

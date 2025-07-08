@@ -96,7 +96,7 @@ export default function ModularAIAgentsCaseStudy() {
             <p>
               <strong>Use Cases:</strong>
             </p>
-            <ul>
+            <ul style={{ listStyle: "none" }}>
               <li>✅ Healthcare triage and appointment booking</li>
               <li>✅ Real estate or rental inquiries</li>
               <li>✅ eCommerce support (returns, deliveries, FAQs)</li>
@@ -122,7 +122,7 @@ export default function ModularAIAgentsCaseStudy() {
             <p>
               <strong>Use Cases:</strong>
             </p>
-            <ul>
+            <ul style={{ listStyle: "none" }}>
               <li>✅ Home services (cleaning, repair, appointments)</li>
               <li>✅ Restaurant and hospitality lines</li>
               <li>✅ SaaS product support via phone</li>
@@ -153,13 +153,13 @@ export default function ModularAIAgentsCaseStudy() {
             <p>
               <strong>Use Cases:</strong>
             </p>
-            <ul>
+            <ul style={{ listStyle: "none" }}>
               <li>✅ SaaS founders scaling outbound</li>
               <li>✅ Agencies booking discovery calls</li>
               <li>✅ Coaches or consultants doing high-touch outreach</li>
             </ul>
             <h2>The Results: Battle-Tested AI You Can Actually Use</h2>
-            <ul className="results-list">
+            <ul className="results-list" style={{ listStyle: "none" }}>
               <li>
                 ✅ Customizability – Each agent can plug into any existing
                 system (CRM, Sheets, custom APIs)
@@ -237,9 +237,10 @@ export default function ModularAIAgentsCaseStudy() {
             </p>
             <div style={{ marginTop: "2rem", textAlign: "center" }}>
               <iframe
-                width="500"
-                height="300"
-                src="https://www.youtube.com/embed/IK8swdj1g6s"
+                width="800"
+                height="400"
+                style={{ overflow: "hidden", borderRadius: "12px" }}
+                src="https://www.youtube.com/embed/d9ve3TxLFVI"
                 title="Modular AI Agents Demo"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               ></iframe>

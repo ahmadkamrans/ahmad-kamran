@@ -157,14 +157,14 @@ export default function BlogSection() {
                 ></iframe>
               </div>
             </div>
-            <div className="section__navigation">
+            {/* <div className="section__navigation">
               <a
                 href="/blog/index.html"
                 className="button button--primary section-button"
               >
                 All posts <i className="ion ion-md-arrow-forward"></i>
               </a>
-            </div>
+            </div> */}
           </section>
         </div>
       </div>
