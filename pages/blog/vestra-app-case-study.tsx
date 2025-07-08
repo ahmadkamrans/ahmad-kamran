@@ -41,13 +41,13 @@ export default function VestraAppCaseStudy() {
                 </a>
               </div>
             </div>
-            <img
+            {/* <img
               src="/images/vestra.png"
               alt="Vestra.app – Automating Property Management with AI-Powered Simplicity"
-            />
-            <div className="post-image-caption">
+            /> */}
+            {/* <div className="post-image-caption">
               Vestra.app Dashboard Screenshot
-            </div>
+            </div> */}
           </div>
         </div>
         {/* begin post */}

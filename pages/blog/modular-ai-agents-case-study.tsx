@@ -39,13 +39,13 @@ export default function ModularAIAgentsCaseStudy() {
                 </a>
               </div>
             </div>
-            <img
+            {/* <img
               src="/images/ai-agents.jpg"
               alt="Modular AI Agents Case Study"
-            />
-            <div className="post-image-caption">
+            /> */}
+            {/* <div className="post-image-caption">
               Modular AI Agents Suite Demo
-            </div>
+            </div> */}
           </div>
         </div>
         {/* begin post */}

@@ -107,12 +107,12 @@ export default function WhatsAppVoiceAIAgentDemo() {
                 </div> */}
               </div>
             </div>
-            <div className="post-image">
+            {/* <div className="post-image">
               <img
                 src="/images/whatsapp-agent.jpeg"
                 alt="WhatsApp & Voice AI Agent Demo"
               />
-            </div>
+            </div> */}
             <div className="post-image-caption">Demo Screenshot</div>
           </div>
         </div>
