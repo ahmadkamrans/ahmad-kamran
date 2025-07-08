@@ -193,7 +193,18 @@ export default function VestraAppCaseStudy() {
               </li>
             </ul>
             <h3>Founder Testimonial</h3>
-            <blockquote>test</blockquote>
+            <blockquote>
+              Working with Ahmad has been an incredible experience. He has
+              demonstrated deep technical expertise, clear communication, and a
+              commitment to delivering a high-quality product to our team. He
+              really took the time to understand our needs and translated them
+              into a solution that exceeded our expectations. Since implementing
+              our Vestro property management solution, we've seen significant
+              improvements in operational efficiency and client satisfaction. I
+              highly recommend Ahmad to anyone looking for a skilled and
+              reliable software developer. Thank you, Ahmad, for your
+              outstanding work—we look forward to many more projects together.
+            </blockquote>
             <h3>Tech Stack Highlights</h3>
             <ul>
               <li>
