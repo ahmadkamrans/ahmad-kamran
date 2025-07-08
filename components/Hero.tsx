@@ -37,7 +37,7 @@ export default function Hero() {
         size={32}
         style={{
           color: "#000",
-          right: 10,
+          right: -33,
           zIndex: 4,
           position: "absolute",
           top: "50%",
@@ -50,7 +50,7 @@ export default function Hero() {
         size={32}
         style={{
           color: "#000",
-          left: 10,
+          left: -33,
           zIndex: 4,
           position: "absolute",
           top: "50%",

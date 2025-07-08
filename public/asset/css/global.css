@@ -55,6 +55,8 @@
     padding: 0
 }
 
+.log-img {}
+
 .slick-prev:before,
 .slick-next:before {
     color: #000 !important;
@@ -72,6 +74,14 @@
 .slick-prev,
 .slick-next {
     color: #000 !important;
+}
+
+.slick-prev {
+    left: -33px !important;
+}
+
+.slick-next {
+    right: -33px !important;
 }
 
 .screen-reader-text {
