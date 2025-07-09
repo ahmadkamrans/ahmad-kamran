@@ -3,22 +3,22 @@ export default function Logos() {
     {
       src: "/images/word_of_mouth_online_pty_ltd__logo.jpeg",
       alt: "Word of Mouth Online Pty Ltd",
-      href: "#",
+      href: "https://www.linkedin.com/company/word-of-mouth-online-pty-ltd-/",
     },
     {
       src: "/images/vestra_software_solutions_logo.jpeg",
       alt: "Vestra Software Solutions",
-      href: "#",
+      href: "https://www.linkedin.com/company/vestrasoftware/",
     },
     {
       src: "/images/zoficash_logo.jpeg",
       alt: "Zoficash",
-      href: "#",
+      href: "https://www.linkedin.com/company/zoficash/",
     },
     {
       src: "/images/golfpay.png",
       alt: "Golfpay",
-      href: "#",
+      href: "https://www.linkedin.com/company/golfpay-llc/",
     },
     {
       src: "/images/rrf.jpeg",
@@ -28,7 +28,7 @@ export default function Logos() {
     {
       src: "/images/astechware_logo.jpeg",
       alt: "Astechware",
-      href: "#",
+      href: "https://www.linkedin.com/company/astechware/posts/?feedView=all",
     },
     {
       src: "/images/thegrantshub_logo.jpeg",
