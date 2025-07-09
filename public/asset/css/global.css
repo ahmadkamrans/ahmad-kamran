@@ -3267,7 +3267,8 @@ table td {
     border-radius: 50%;
     overflow: hidden;
     transform: translate(0);
-    background-color: var(--background-color)
+    background-color: var(--background-color);
+    min-width: 64px;
 }
 
 .image-container .client-avatar {
