@@ -112,7 +112,7 @@ export default function Footer() {
                   </ul>
                 </div>
                 <p className="footer__author-bio">
-                  Hi, I'm Ahmad – Full Stack Developer. Helping Founders Build
+                  Hi, I&apos;m Ahmad – Full Stack Developer. Helping Founders Build
                   AI MVPs, SaaS Platforms & Agents — Fast, Lean, and Scalable |
                   10+ Yr Full-Stack Expert
                 </p>

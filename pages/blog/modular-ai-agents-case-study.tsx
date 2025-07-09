@@ -1,6 +1,5 @@
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import "./blog-detail.css";
 
 export default function ModularAIAgentsCaseStudy() {
   return (

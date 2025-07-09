@@ -1,31 +1,27 @@
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 export default function Navbar() {
   // Theme state: 'light' or 'dark'
-  const [theme, setTheme] = useState<"light" | "dark">(
-    typeof window !== "undefined" && localStorage.getItem("theme") === "dark"
-      ? "dark"
-      : "light"
-  );
+  // const [theme, setTheme] = useState<"light" | "dark">(
+  //   typeof window !== "undefined" && localStorage.getItem("theme") === "dark"
+  //     ? "dark"
+  //     : "light"
+  // );
 
   // Sync theme with localStorage and document
-  useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.setAttribute("dark", "");
-      document.documentElement.classList.add("dark-mode");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.removeAttribute("dark");
-      document.documentElement.classList.remove("dark-mode");
-      localStorage.setItem("theme", "light");
-    }
-  }, [theme]);
+  // useEffect(() => {
+  //   if (theme === "dark") {
+  //     document.documentElement.setAttribute("dark", "");
+  //     document.documentElement.classList.add("dark-mode");
+  //     localStorage.setItem("theme", "dark");
+  //   } else {
+  //     document.documentElement.removeAttribute("dark");
+  //     document.documentElement.classList.remove("dark-mode");
+  //     localStorage.setItem("theme", "light");
+  //   }
+  // }, [theme]);
 
-  // Toggle theme handler
-  const toggleTheme = () => {
-    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
-  };
+
 
   return (
     <header className="header">

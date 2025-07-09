@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function BlogSection() {
   return (
     <div className="container">
@@ -12,7 +14,7 @@ export default function BlogSection() {
             <div className="section__inner">
               {/* Vestra.app Case Study */}
               <div className="article animate grid__post">
-                <a
+                <Link
                   className="article__image"
                   href="/blog/vestra-app-case-study"
                 >
@@ -20,7 +22,7 @@ export default function BlogSection() {
                     src="/images/vestra_software_solutions_logo.jpeg"
                     alt="Vestra.app – Automating Property Management with AI-Powered Simplicity"
                   />
-                </a>
+                </Link>
                 <div className="article__content">
                   <div className="article-tags__box">
                     <span className="article__tag">AI</span>
@@ -29,10 +31,10 @@ export default function BlogSection() {
                     <span className="article__tag">SaaS</span>
                   </div>
                   <h2 className="article__title">
-                    <a href="/blog/vestra-app-case-study">
+                    <Link href="/blog/vestra-app-case-study">
                       Case Study: Vestra.app – Automating Property Management
                       with AI-Powered Simplicity
-                    </a>
+                    </Link>
                   </h2>
                   <p className="article__excerpt">
                     Vestra.app is a modern SaaS platform built for property
@@ -42,7 +44,7 @@ export default function BlogSection() {
                     for founder Nathan, Vestra streamlines onboarding,
                     operations, and reporting—delivering a seamless experience
                     for landlords, staff, and tenants.{" "}
-                    <a href="/blog/vestra-app-case-study">Learn more</a>.
+                    <Link href="/blog/vestra-app-case-study">Learn more</Link>.
                   </p>
                 </div>
               </div>
@@ -59,7 +61,7 @@ export default function BlogSection() {
 
               {/* WhatsApp & Voice AI Agent Demo */}
               <div className="article animate grid__post">
-                <a
+                <Link
                   className="article__image"
                   href="/blog/whatsapp-voice-ai-agent-demo"
                 >
@@ -67,7 +69,7 @@ export default function BlogSection() {
                     src="/images/whatsapp-agent.jpeg"
                     alt="WhatsApp & Voice AI Agent Demo"
                   />
-                </a>
+                </Link>
                 <div className="article__content">
                   <div className="article-tags__box">
                     <span className="article__tag">AI</span>
@@ -76,10 +78,10 @@ export default function BlogSection() {
                     <span className="article__tag">Healthcare</span>
                   </div>
                   <h2 className="article__title">
-                    <a href="/blog/whatsapp-voice-ai-agent-demo">
+                    <Link href="/blog/whatsapp-voice-ai-agent-demo">
                       WhatsApp & Voice AI Agent Demo: Healthcare Triage &
                       Appointment Booking
-                    </a>
+                    </Link>
                   </h2>
                   <p className="article__excerpt">
                     This demo showcases the capabilities of WhatsApp and Voice
@@ -107,7 +109,7 @@ export default function BlogSection() {
 
               {/* Modular AI Agents Case Study */}
               <div className="article animate grid__post">
-                <a
+                <Link
                   className="article__image"
                   href="/blog/modular-ai-agents-case-study"
                 >
@@ -115,7 +117,7 @@ export default function BlogSection() {
                     src="/images/repi-work.jpeg"
                     alt="Modular AI Agents Case Study"
                   />
-                </a>
+                </Link>
                 <div className="article__content">
                   <div className="article-tags__box">
                     <span className="article__tag">AI</span>
@@ -124,10 +126,10 @@ export default function BlogSection() {
                     <span className="article__tag">Agents</span>
                   </div>
                   <h2 className="article__title">
-                    <a href="/blog/modular-ai-agents-case-study">
+                    <Link href="/blog/modular-ai-agents-case-study">
                       Case Study: Modular AI Agents That Save Time, Scale
                       Outreach, and Automate Support
-                    </a>
+                    </Link>
                   </h2>
                   <p className="article__excerpt">
                     Discover how modular, production-ready AI agents are
@@ -136,12 +138,12 @@ export default function BlogSection() {
                     Ahmad Kamran, this customizable suite includes WhatsApp,
                     Voice, and Sales Outreach agents—each designed for seamless
                     integration, human handoff, and real business impact.{" "}
-                    <a
+                    <Link
                       href="/blog/modular-ai-agents-case-study"
                       className="text-blue-500"
                     >
                       Learn more
-                    </a>
+                    </Link>
                     .
                   </p>
                 </div>

@@ -90,9 +90,9 @@ export default function Hero() {
         <div className="row">
           <div className="col col-6 col-d-12">
             <div className="hero__left">
-              <h1 className="hero__title">Hey everyone, I'm Ahmad Kamran</h1>
+              <h1 className="hero__title">Hey everyone, I&apos;m Ahmad Kamran</h1>
               <p className="hero__description">
-                Hi, I'm Ahmad – Full Stack Developer. Helping Founders Build AI
+                Hi, I&apos;m Ahmad – Full Stack Developer. Helping Founders Build AI
                 MVPs, SaaS Platforms & Agents — Fast, Lean, and Scalable | 10+
                 Yr Full-Stack Expert
               </p>

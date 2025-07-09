@@ -1,6 +1,5 @@
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import "./blog-detail.css";
 
 export default function VestraAppCaseStudy() {
   return (
@@ -199,11 +198,12 @@ export default function VestraAppCaseStudy() {
               commitment to delivering a high-quality product to our team. He
               really took the time to understand our needs and translated them
               into a solution that exceeded our expectations. Since implementing
-              our Vestro property management solution, we've seen significant
-              improvements in operational efficiency and client satisfaction. I
-              highly recommend Ahmad to anyone looking for a skilled and
-              reliable software developer. Thank you, Ahmad, for your
-              outstanding work—we look forward to many more projects together.
+              our Vestro property management solution, we&apos;ve seen
+              significant improvements in operational efficiency and client
+              satisfaction. I highly recommend Ahmad to anyone looking for a
+              skilled and reliable software developer. Thank you, Ahmad, for
+              your outstanding work—we look forward to many more projects
+              together.
             </blockquote>
             <h3>Tech Stack Highlights</h3>
             <ul>
@@ -231,8 +231,9 @@ export default function VestraAppCaseStudy() {
             </ul>
             <h3>Interested in Building Something Like Vestra?</h3>
             <p>
-              If you're looking to build a scalable SaaS platform that automates
-              operations and delivers a great user experience, let’s talk.
+              If you&apos;re looking to build a scalable SaaS platform that
+              automates operations and delivers a great user experience, let’s
+              talk.
               <br />
               Visit:{" "}
               <a

@@ -3876,7 +3876,7 @@ table td {
 
 .post-head,
 .page-head {
-    max-width: 840px;
+    /* max-width: 840px; */
     margin: 40px auto 32px
 }
 
@@ -4158,7 +4158,7 @@ table td {
 
 .post,
 .page {
-    max-width: 840px;
+    /* max-width: 840px; */
     margin: 0 auto 60px;
     color: var(--text-color)
 }

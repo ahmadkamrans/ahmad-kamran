@@ -119,7 +119,7 @@ export default function Logos() {
           <div className="col col-12">
             <div className="section__info">
               <h2 className="section__small__title">
-                I've worked with some great сompanies
+                I&apos;ve worked with some great сompanies
               </h2>
             </div>
             <div className="logos__carousel">
